@@ -198,7 +198,6 @@ textarea:focus {
   margin: 0;
   padding: 0;
   width: 90%;
-  display: none;
 }
 
 .resposta-vazia img {
@@ -227,7 +226,7 @@ textarea:focus {
   padding: 0;
   width: 90%;
   height: 100%;
-  /*display: none;*/
+  display: none;
 }
 
 .texto-codificado {
