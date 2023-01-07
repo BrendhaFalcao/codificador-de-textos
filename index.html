@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img class="header-icon" src="cadeado-01.png" alt="Logo da Página" />
+      <h2>CODIFICADOR</h2>
+    </header>
+
+    <main>
+      <div class="caixa-entrada-texto">
+        <textarea class="textarea" placeholder="Digite seu texto"></textarea>
+        <div class="alerta-texto">
+          <div>!</div>
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="botoes-principais">
+          <button class="criptografar">Criptografar</button>
+          <button class="descriptografar">Descriptografar</button>
+          <button class="limpa-tela" type="reset">Limpar Texto</button>
+        </div>
+      </div>
+
+      <div class="caixa-resposta">
+        <div class="resposta-vazia">
+          <img
+            src="mulher-detetive.png"
+            alt="Imagem de uma mulher com uma lupa"
+          />
+          <div class="texto-resposta-vazia">
+            <h3>Nenhuma mensagem encontrada</h3>
+            <p>
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+        </div>
+        <div class="resposta-preenchida">
+          <textarea class="texto-codificado"> </textarea>
+          <button class="botao-copia">Copiar</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&#169; 2023 Brendha Falcão. All Rights Reserved</p>
+      <div class="footer-icons">
+        <a href="https://github.com/BrendhaFalcao" target="_blank"
+          ><img src="icone-github.png" alt="GitHub" class="github-icon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/brendha-falc%C3%A3o-00/"
+          target="_blank"
+          ><img src="icone-linkedin.png" alt="LinkedIn" class="linkedin-icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
